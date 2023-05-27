@@ -28,7 +28,7 @@
 
 Recursion is a programming concept where a function calls itself repeatedly until a certain condition is met. It allows you to solve complex problems by breaking them down into smaller, more manageable subproblems. Here's an example of a recursive function in JavaScript:
 
-```
+```javascript
 function countdown(n) {
   // Base case: stop when n reaches 0
   if (n === 0) {
@@ -48,7 +48,7 @@ In this example, the countdown function takes an integer n as input and prints t
 
 The "two pointers" technique is commonly used to solve problems that involve searching, manipulating, or comparing elements in an array or a linked list. It involves using two pointers that traverse the data structure in different ways to solve the problem efficiently. Let's take a look at an example that demonstrates the two pointers technique in JavaScript:
 
-```
+```javascript
 function findPairSum(arr, target) {
   // Sort the array in ascending order
   arr.sort((a, b) => a - b);
@@ -101,7 +101,7 @@ Finally, if no pair is found with the target sum, we return `null`.
 
 The "sliding window" technique is useful for solving problems that involve finding a subset or subarray of consecutive elements in an array or string that satisfies certain conditions. It involves maintaining a window of elements while "sliding" or moving the window across the data structure to find the desired subset. Let's take a look at an example that demonstrates the sliding window technique in JavaScript:
 
-```
+```javascript
 function findMaxSum(arr, k) {
   const n = arr.length;
 
@@ -160,7 +160,7 @@ In the given array [2, 1, 5, 1, 3, 2], the subarray [5, 1, 3] has the maximum su
 
 ### Lineked List
 
-```
+```javascript
 // Define the Node class
 class Node {
   constructor(data) {
@@ -231,7 +231,7 @@ In the main program, we create a new instance of the `LinkedList` class named `l
 
 ### Queue
 
-```
+```javascript
 // Define the Queue class
 class Queue {
   constructor() {
